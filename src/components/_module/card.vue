@@ -56,7 +56,7 @@ export default {
       } else {
         this.currentPage += 1;
       }
-      axios.get(`${process.env.URL}?page=${this.currentPage}`)
+      axios.get(`http://localhost:1111/api/v1/book?page=${this.currentPage}`)
         .then((res) => {
           // eslint-disable-next-line prefer-destructuring
           this.books = res.data.result[2];

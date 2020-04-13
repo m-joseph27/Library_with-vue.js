@@ -56,7 +56,7 @@ export default {
       form.append('status', this.status);
       form.append('author', this.author);
       form.append('id_category', this.id_category);
-      axios.post(`${process.env.URL}/book`, form)
+      axios.post('http://localhost:1111/api/v1/book', form)
 
         .then((res) => {
           // resultData = '';
