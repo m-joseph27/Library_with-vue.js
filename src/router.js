@@ -20,11 +20,17 @@ const routes = [
     name: 'Main',
     component: Main,
     redirect: { name: 'Home' },
+    meta: {
+      title: 'Most Populer Library',
+    },
     children: [
       {
         path: '/home',
         name: 'Home',
         component: Home,
+        meta: {
+          title: 'Library',
+        },
       },
       {
         path: '/auth',
@@ -35,26 +41,41 @@ const routes = [
         path: '/login',
         name: 'Login',
         component: Login,
+        meta: {
+          title: 'Login',
+        },
       },
       {
         path: '/dashboard',
         name: 'Dashboard',
         component: Dashboard,
+        meta: {
+          title: 'Library | Most Populer Library',
+        },
       },
       {
         path: '/register',
         name: 'Register',
         component: Register,
+        meta: {
+          title: 'Regist your acount',
+        },
       },
       {
         path: '/about',
         name: 'About',
         component: About,
+        meta: {
+          title: 'About | Library',
+        },
       },
       {
         path: '/detail/:id',
         name: 'Detail',
         component: Detail,
+        meta: {
+          title: 'Detail | Libarary',
+        },
       },
       {
         path: '/logout',

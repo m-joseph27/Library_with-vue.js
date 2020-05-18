@@ -167,7 +167,7 @@ export default {
   align-items: center;
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-image: url('../../assets/img/4683.jpg');
   background-size: cover;
 }

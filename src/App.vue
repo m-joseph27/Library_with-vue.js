@@ -3,9 +3,15 @@
 </template>
 
 <script>
-
 export default {
-  name: 'App',
+  watch: {
+    $route: {
+      handler: (to) => {
+        document.title = to.meta.title || 'Welcome to Library';
+      },
+      immediate: true,
+    },
+  },
 };
 </script>
 
