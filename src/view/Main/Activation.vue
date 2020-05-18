@@ -17,7 +17,7 @@ export default {
     };
   },
   beforeCreate() {
-    axios.get(`http://localhost:1111/api/v1/user/activation?activated=${this.$route.query.activated}`)
+    axios.get(`${process.env.VUE_APP_URL}user/activation?activated=${this.$route.query.activated}`)
       .then((res) => {
         this.$router.push('/login');
         this.msg = res.data.err;

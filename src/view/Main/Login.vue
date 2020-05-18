@@ -43,10 +43,11 @@ export default {
   methods: {
     login() {
       axios
-        .post('http://localhost:1111/api/v1/user/login', {
+        .post(`${process.env.VUE_APP_URL}user/login`, {
           email: this.email, password: this.password,
         })
         .then((req) => {
+          console.log(req);
           this.loginSucces(req);
         });
     },

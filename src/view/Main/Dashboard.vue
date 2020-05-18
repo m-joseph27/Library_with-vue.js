@@ -128,7 +128,7 @@ export default {
     },
     getUser() {
       axios
-        .get(`http://localhost:1111/api/v1/user/${this.user_id}`)
+        .get(`${process.env.VUE_APP_URL}user/${this.user_id}`)
         .then((res) => {
           // this.books = res.data.result;
           // console.log(res.data.result[0]);

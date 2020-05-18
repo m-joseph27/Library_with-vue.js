@@ -38,13 +38,13 @@ export default {
       books: [],
       currentPage: 1,
       totalPage: [],
-      url: 'localhost:1111/api/v1/book?page=',
+      url: `${process.env.VUE_APP_URL}book?page=`,
     };
   },
   methods: {
     pages(id) {
       this.currentPage = 0 + id;
-      axios.get(`http://localhost:1111/api/v1/book?page=${this.currentPage}`)
+      axios.get(`${process.env.VUE_APP_URL}book?page=${this.currentPage}`)
         .then((res) => {
           // eslint-disable-next-line prefer-destructuring
           this.books = res.data.result[2];
@@ -56,7 +56,7 @@ export default {
       } else {
         this.currentPage += 1;
       }
-      axios.get(`http://localhost:1111/api/v1/book?page=${this.currentPage}`)
+      axios.get(`${process.env.VUE_APP_URL}book?page=${this.currentPage}`)
         .then((res) => {
           // eslint-disable-next-line prefer-destructuring
           this.books = res.data.result[2];
@@ -73,7 +73,7 @@ export default {
       } else {
         this.currentPage -= 1;
       }
-      axios.get(`http://localhost:1111/api/v1/book?page=${this.currentPage}`)
+      axios.get(`${process.env.VUE_APP_URL}book?page=${this.currentPage}`)
         .then((res) => {
           // eslint-disable-next-line prefer-destructuring
           this.books = res.data.result[2];
@@ -86,7 +86,7 @@ export default {
     },
   },
   mounted() {
-    axios.get(`http://localhost:1111/api/v1/book?page=${this.currentPage}`)
+    axios.get(`${process.env.VUE_APP_URL}book?page=${this.currentPage}`)
       .then((res) => {
         // eslint-disable-next-line prefer-destructuring
         this.books = res.data.result[2];

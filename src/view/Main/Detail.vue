@@ -57,7 +57,7 @@ export default {
   methods: {
     loadDetail() {
       axios
-        .get(`http://localhost:1111/api/v1/book/${this.$route.params.id}`).then((getDetail) => {
+        .get(`${process.env.VUE_APP_URL}book/${this.$route.params.id}`).then((getDetail) => {
           this.bookDetail = getDetail.data.result;
           document.querySelector('div.banner').style.backgroundImage = `url(${this.bookDetail.image})`;
           document.querySelector('div.cover-book').style.backgroundImage = `url(${this.bookDetail.image})`;
