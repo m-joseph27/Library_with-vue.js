@@ -63,19 +63,26 @@ VUE_APP_SECRET_KEY=YOUR_API_KEY
 <div class="demo">
     <div class="items">
     	<h4 class="title-demo">Landing Page</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/landing.webm">  
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-42.png">  
     </div>
-    <div class="items">
+	<div class="items">
     	<h4 class="title-demo">Register Page</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/register.png">  
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-50.png.png">  
     </div>
     <div class="items">
-    	<h4 class="title-demo">Home</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/home.png">  
+    	<h4 class="title-demo">Login Page</h4>
+		<img class="img-demo" src="<div class="items">
+    	<h4 class="title-demo">Register Page</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-47.png">  
+    </div>">  
     </div>
     <div class="items">
-    	<h4 class="title-demo">Cart</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/cart.png">  
+    	<h4 class="title-demo">Dashboard</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-50-14.png">  
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Detail Page</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-50-55.png">  
     </div>
 </div>
 </section>
