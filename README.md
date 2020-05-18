@@ -8,7 +8,6 @@
 )
 
 <p align="center">
-  <img height="100" src="./screenshots/library-logo.png">
   <img height="100" src="https://vuejs.org/images/logo.png">
 </p>
 <p align="center">
