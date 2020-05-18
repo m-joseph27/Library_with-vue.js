@@ -60,22 +60,25 @@ VUE_APP_SECRET_KEY=YOUR_API_KEY
 ## Screenshots
 
 
-<div align="center">
-    <h4 align="center">LANDING PAGE</h4>
-    <img width="860" src="./screenshots/library-landing.gif">
+<div class="demo">
+    <div class="items">
+    	<h4 class="title-demo">Login Page</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/login.png">  
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Register Page</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/register.png">  
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Home</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/home.png">  
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Cart</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/cart.png">  
+    </div>
 </div>
-<br>
-<div align="center">
-    <h4 align="center">LOGIN & REGISTER PAGE</h4>
-    <img width="430" src="./screenshots/library-login.gif">
-    <img width="430" src="./screenshots/library-register.png">
-</div>
-<div align="center">
-    <h4 align="center">DASHBOARD & BORROW PAGE</h4>
-    <img width="430" src="./screenshots/library-dashboard.gif">   
-    <img width="430" src="./screenshots/library-borrow-return.gif">
-</div>
-<br>
+</section>
 
 
 ## Contributing
