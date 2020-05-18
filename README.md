@@ -62,8 +62,8 @@ VUE_APP_SECRET_KEY=YOUR_API_KEY
 
 <div class="demo">
     <div class="items">
-    	<h4 class="title-demo">Login Page</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/POS-Chasier_app-with-Vuejs/blob/master/src/assets/screenshot/login.png">  
+    	<h4 class="title-demo">Landing Page</h4>
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/landing.webm">  
     </div>
     <div class="items">
     	<h4 class="title-demo">Register Page</h4>
