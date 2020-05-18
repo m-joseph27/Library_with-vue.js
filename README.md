@@ -65,16 +65,16 @@ VUE_APP_SECRET_KEY=YOUR_API_KEY
     	<h4 class="title-demo">Landing Page</h4>
 		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-42.png">  
     </div>
-	<div class="items">
+    <div class="items">
     	<h4 class="title-demo">Register Page</h4>
-		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-50.png.png">  
+		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-50.png">  
     </div>
     <div class="items">
-    	<h4 class="title-demo">Login Page</h4>
+    	<h4 class="title-demo">Login</h4>
 		<img class="img-demo" src="<div class="items">
     	<h4 class="title-demo">Register Page</h4>
 		<img class="img-demo" src="https://github.com/m-joseph27/Library_with-vue.js/blob/master/src/assets/Screenshot/Screenshot%20from%202020-05-18%2021-47-47.png">  
-    </div>">  
+    </div>
     </div>
     <div class="items">
     	<h4 class="title-demo">Dashboard</h4>
