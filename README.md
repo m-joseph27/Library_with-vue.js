@@ -23,7 +23,6 @@
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Related Project](#related-project-backend)
-- [Contributor](#contributor)
 
 ## Features
 
@@ -100,17 +99,3 @@ Fork the Project
 ## Related Project (Backend)
 
 * [`Backend-Library`](https://github.com/m-joseph27/Library-API)
-
-## Contributor
-<center>
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/m-joseph27">
-          <img width="150" src="https://avatars2.githubusercontent.com/u/60948526?s=400&u=c258f85ec35ccfda6ce3911dae79d45e335088b3&v=4" alt="Muhammad Yusuf"><br/>
-          <b>Muhammad Yusuf</b>
-        </a>
-      </td>
-    </tr>
-  </table>
-</center>
